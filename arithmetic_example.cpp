@@ -11,7 +11,7 @@ string Powers_of_Two(int n) {
         {
             return "True";
         }
-        else if (pow(2, x) > n)
+        else if (pow(2, x) > n) // if not, then break function
         {
             break;
         }
